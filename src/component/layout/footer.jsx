@@ -110,7 +110,7 @@ const Footer = () => {
                 <img src="assets/images/shape-img/04.png" alt="fst" className="fst-2" />
             </div>
             
-            <div className="news-letter">
+            {/* <div className="news-letter">
                 <div className="container">
                     <div className="section-wrapper">
                         <div className="news-title">
@@ -126,10 +126,10 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             
             <footer>
-                <div className="footer-top padding-tb pt-0">
+                {/* <div className="footer-top padding-tb pt-0">
                     <div className="container">
                         <div className="row g-4 row-cols-xl-4 row-cols-md-2 row-cols-1 justify-content-center">
                             <div className="col">
@@ -206,7 +206,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="footer-bottom style-2">
                     <div className="container">
                         <div className="section-wrapper">

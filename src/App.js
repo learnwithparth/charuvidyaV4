@@ -2,7 +2,8 @@
 import {BrowserRouter, Routes, Route } from "react-router-dom";
 import 'swiper/css';
 
-
+import HeaderTwo from "./component/layout/header-2";
+import Footer from "./component/layout/footer";
 import ScrollToTop from "./component/layout/ScrollToTop";
 import ErrorPage from "./page/404";
 import AboutPage from "./page/about";
@@ -15,13 +16,7 @@ import ContactPage from "./page/contact";
 import CoursePage from "./page/course";
 import CourseSingle from "./page/course-single";
 import ForgetPass from "./page/forgetpass";
-import Home from "./page/home";
-import HomeTwo from "./page/home-2";
-import HomeThree from "./page/home-3";
-import HomeFour from "./page/home-4";
-import HomeFive from "./page/home-5";
-import HomeSix from "./page/home-6";
-import HomeSeven from "./page/home-7";
+import Home from "./page/home-2";
 import InstructorPage from "./page/instructor";
 import LoginPage from "./page/login";
 import SearchNone from "./page/search-none";
@@ -38,14 +33,10 @@ function App() {
 	return (
 		<BrowserRouter>
 			<ScrollToTop />
+			<HeaderTwo />
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="index-2" element={<HomeTwo />} />
-				<Route path="index-3" element={<HomeThree />} />
-				<Route path="index-4" element={<HomeFour />} />
-				<Route path="index-5" element={<HomeFive />} />
-				<Route path="index-6" element={<HomeSix />} />
-				<Route path="index-7" element={<HomeSeven />} />
+				
 				<Route path="course" element={<CoursePage />} />
 				<Route path="course-single" element={<CourseSingle />} />
 				<Route path="blog" element={<BlogPage />} />
@@ -67,6 +58,7 @@ function App() {
 				<Route path="forgetpass" element={<ForgetPass />} />
 				<Route path="*" element={<ErrorPage />} />
 			</Routes>
+			<Footer />
 		</BrowserRouter>
 	);
 }

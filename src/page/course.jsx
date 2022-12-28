@@ -101,9 +101,9 @@ const courseList = [
 const CoursePage = () => {
     return (
         <Fragment>
-            <Header />
-            <PageHeader title={'Archives: Courses'} curPage={'Course Page'} />
-            <GroupSelect />
+            {/* <Header /> */}
+            {/* <PageHeader title={'Courses'} curPage={'Course Page'} /> */}
+            {/* <GroupSelect /> */}
             <div className="course-section padding-tb section-bg">
                 <div className="container">
                     <div className="section-wrapper">
@@ -166,7 +166,7 @@ const CoursePage = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </Fragment>
     );
 }

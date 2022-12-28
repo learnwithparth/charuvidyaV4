@@ -42,8 +42,8 @@ const socialList = [
 const LoginPage = () => {
     return (
         <Fragment>
-            <Header />
-            <PageHeader title={'Login Page'} curPage={'Login'} />
+            {/* <Header /> */}
+            {/* <PageHeader title={'Login Page'} curPage={'Login'} /> */}
             <div className="login-section padding-tb section-bg">
                 <div className="container">
                     <div className="account-wrapper">
@@ -91,7 +91,7 @@ const LoginPage = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </Fragment>
     );
 }

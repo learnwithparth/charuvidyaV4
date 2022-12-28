@@ -1,6 +1,7 @@
 import { Component, Fragment } from "react";
 import Footer from "../component/layout/footer";
-import HeaderTwo from "../component/layout/header-2";
+
+import CoursePage from "../page/course";
 import AboutTwo from "../component/section/about-2";
 import AchievementTwo from "../component/section/achievement-2";
 import BannerTwo from "../component/section/banner-2";
@@ -15,7 +16,8 @@ import Student from "../component/section/student";
 const HomeTwo = () => {
     return (
         <Fragment>
-            <HeaderTwo />
+            
+            {/* <CoursePage/> */}
             <BannerTwo />
             <AboutTwo />
             <CourseTwo />
@@ -25,7 +27,7 @@ const HomeTwo = () => {
             <Skill />
             <AchievementTwo />
             <Blog />
-            <Footer />
+            
         </Fragment>
     );
 }

@@ -42,8 +42,8 @@ const socialList = [
 const ForgetPass = () => {
     return (
         <Fragment>
-            <Header />
-            <PageHeader title={'Forget Password'} curPage={'Forget Password'} />
+            {/* <Header /> */}
+            {/* <PageHeader title={'Forget Password'} curPage={'Forget Password'} /> */}
             <div className="login-section padding-tb section-bg">
                 <div className="container">
                     <div className="account-wrapper">

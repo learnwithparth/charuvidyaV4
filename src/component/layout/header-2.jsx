@@ -40,7 +40,7 @@ const HeaderTwo = () => {
                         </div>
                     </div>
                     <div className="menu-area">
-                        <div className="menu">
+                        {/* <div className="menu">
                             <ul className={`lab-ul ${menuToggle ? "active" : ""}`}>
                                 <li className="menu-item-has-children">
                                     <a href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-offset="0,0">Home</a>
@@ -86,7 +86,7 @@ const HeaderTwo = () => {
                                 </li>
                                 <li><NavLink to="/contact">Contact</NavLink></li>
                             </ul>
-                        </div>
+                        </div> */}
                         
                         <Link to="/login" className="login"><i className="icofont-user"></i> <span>LOG IN</span> </Link>
                         <Link to="/signup" className="signup"><i className="icofont-users"></i> <span>SIGN UP</span> </Link>
